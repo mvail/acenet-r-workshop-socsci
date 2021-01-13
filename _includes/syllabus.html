@@ -8,7 +8,7 @@
 {% include manual_episode_order.html %}
 
 <div class="syllabus">
-  <h2 id="schedule">Schedule - 1111111<h2>
+  <h2 id="schedule">Schedule<h2>
 
   {% assign lesson_number = 0 %}
   {% assign day = 0 %}
@@ -22,9 +22,7 @@
     {% if episode.start %}{% assign multiday = true %}{% break %}{% endif %}
   {% endfor %}
   {% assign current = site.start_time %}
-
-<p>Multiday: {{ multiday }}</p>
-<p>Episode Start: {{ episode.start }}</p>	  
+	  
   <table class="table table-striped">
   <tr>
     {% if multiday %}<td class="col-md-1"></td>{% endif %}
