@@ -19,6 +19,7 @@ keypoints:
 - "Use RStudio to write and run R programs."
 - "Use `install.packages()` to install packages (libraries)."
 source: Rmd
+start: true
 ---
 
 
