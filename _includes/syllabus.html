@@ -22,7 +22,7 @@
     {% if episode.start %}{% assign multiday = true %}{% break %}{% endif %}
   {% endfor %}
   {% assign current = site.start_time %}
-
+	<p>Multiday: {{ multiday }}</p>
   <table class="table table-striped">
   <tr>
     {% if multiday %}<td class="col-md-1"></td>{% endif %}
