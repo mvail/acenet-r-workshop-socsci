@@ -19,10 +19,9 @@
     {% else %}
       {% assign episode = lesson_episode %}
     {% endif %}
-    {% if episode.start %}{% assign multiday = true %}{% assign multiday = true %}{% endif %}
+    {% if episode.start %}{% assign multiday = true %}{% break %}{% endif %}
   {% endfor %}
   {% assign current = site.start_time %}
-<p>Multiday = {% multiday %}</p>
 
   <table class="table table-striped">
   <tr>
