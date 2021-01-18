@@ -37,7 +37,6 @@ questions:
 teaching: 50
 exercises: 30
 source: Rmd
-start: true
 ---
 
 
