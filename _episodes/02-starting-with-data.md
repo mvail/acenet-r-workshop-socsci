@@ -25,6 +25,7 @@ keypoints:
 - "Use read_csv to read tabular data in R."
 - "Use factors to represent categorical data in R."
 source: Rmd
+start: true
 ---
 
 
